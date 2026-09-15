@@ -1,0 +1,37 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Node & Backend
+**/node_modules/
+**/.env
+**/*serviceAccountKey*.json
+**/*.pem
+**/logs/
+**/*.log
+**/npm-debug.log*
+
+# Flutter & Dart
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# IDE & Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+**/.idea/
+**/*.iml

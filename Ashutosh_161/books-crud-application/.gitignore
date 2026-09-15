@@ -1,0 +1,38 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Node & Backend
+node_modules/
+backend/node_modules/
+backend/.env
+backend/*serviceAccountKey*.json
+backend/*.pem
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+
+# Flutter & Dart
+books_crud_app/.dart_tool/
+books_crud_app/.flutter-plugins-dependencies
+books_crud_app/.pub-cache/
+books_crud_app/.pub/
+books_crud_app/build/
+books_crud_app/coverage/
+books_crud_app/ios/Flutter/.last_build_id
+books_crud_app/ios/Flutter/ephemeral/
+books_crud_app/macos/Flutter/ephemeral/
+books_crud_app/android/app/debug/
+books_crud_app/android/app/profile/
+books_crud_app/android/app/release/
+
+# IDE & Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+books_crud_app/.idea/
+books_crud_app/*.iml
